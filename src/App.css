@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monoton&family=Rubik+Mono+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply bg-[#111] text-slate-200;
+  }
+
+  h1 {
+    @apply font-['Monoton'];
+  }
+
+  h2 {
+    @apply font-['Rubik_Mono_One'];
+  }
+
+  p,a {
+    @apply font-['Major_Mono_Display'];
+  }
+
+  .body-font {
+    @apply font-['Major_Mono_Display'];
+  }
+}
