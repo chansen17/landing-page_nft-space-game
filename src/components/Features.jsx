@@ -9,7 +9,7 @@ export default function Features() {
         <div className="max-w-[1440px] mx-auto px-5">
         <div data-aos="zoom-in-up" data-aos-duration="500" className="max-w-3xl py-12 flex items-center space-x-4 md:space-x-8 group">
             <div>
-                <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] group-hover:scale-105 md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={Card} alt="" />
+                <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={Card} alt="" />
             </div>
             <div>
                 <h2 className="text-xl md:text-3xl lg:text-4xl">Explore humanities future.</h2>
@@ -18,7 +18,7 @@ export default function Features() {
         </div>
         <div data-aos="zoom-in-up" data-aos-duration="500" className="max-w-3xl mx-auto py-12 flex items-center space-x-4 md:space-x-8 group">
             <div>
-                <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] group-hover:scale-105 md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={CardTwo} alt="" />
+                <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={CardTwo} alt="" />
             </div>
             <div>
                 <h2 className="text-xl md:text-3xl lg:text-4xl">Passive income</h2>
@@ -27,7 +27,7 @@ export default function Features() {
         </div>
         <div data-aos="zoom-in-up" data-aos-duration="500" className="max-w-3xl ml-auto py-12 flex items-center space-x-4 md:space-x-8 group">
             <div>
-                <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] group-hover:scale-105 md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={CardThree} alt="" />
+                <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={CardThree} alt="" />
             </div>
             <div>
                 <h2 className="text-xl md:text-3xl lg:text-4xl">Earn the status of space merchant</h2>
