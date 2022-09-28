@@ -12,7 +12,7 @@ export default function Features() {
                 <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={Card} alt="" />
             </div>
             <div>
-                <h2 className="text-xl md:text-3xl lg:text-4xl">Explore humanities future.</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl">Explore humanities future.</h2>
                 <p className="text-xs md:text-sm md:text-md lg:text-lg text-cyan-500">Collect them all. Distant worlds where humanitiy may one day, indeed end up.</p>
             </div>
         </div>
@@ -21,7 +21,7 @@ export default function Features() {
                 <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={CardTwo} alt="" />
             </div>
             <div>
-                <h2 className="text-xl md:text-3xl lg:text-4xl">Passive income</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl">Passive income</h2>
                 <p className="text-xs md:text-sm md:text-md lg:text-lg text-cyan-500">Explore distant planets that generate resources.</p>
             </div>
         </div>
@@ -30,7 +30,7 @@ export default function Features() {
                 <img className="max-w-[150px] md:max-w-[200px] lg:max-w-[300px] md:group-hover:scale-110 group-hover:-translate-y-2 duration-500" src={CardThree} alt="" />
             </div>
             <div>
-                <h2 className="text-xl md:text-3xl lg:text-4xl">Earn the status of space merchant</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl">Earn the status of space merchant</h2>
                 <p className="text-xs md:text-sm md:text-md lg:text-lg text-cyan-500">Collect all the colonies, and earn the unique title. Allowing you to <span className="underline">special</span> privalges.</p>
             </div>
         </div>

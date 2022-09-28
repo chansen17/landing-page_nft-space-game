@@ -21,9 +21,9 @@ let companies = [
 
 export default function Attention() {
   return (
-    <div data-aos="fade-in" data-aos-duration="500" data-aos-once="true" className="pb-12 pt-24 flex items-center">
-        <Marquee loop={0} pauseOnHover={false} speed={150} gradient={false} className="py-4">
-            <p className="font-['Monoton'] text-5xl sm:text-6xl md:text-[10vw] bg-gradient-to-r from-orange-500 to-cyan-500 bg-clip-text text-transparent space-x-10 px-10">
+    <div data-aos="fade-in" data-aos-duration="500" data-aos-once="true" className="flex items-center">
+        <Marquee loop={0} pauseOnHover={false} speed={150} gradient={false} className="mt-24">
+            <p className="font-['Monoton'] text-5xl sm:text-6xl md:text-[10vw] bg-gradient-to-r from-orange-500 to-cyan-500 bg-clip-text text-transparent space-x-10 px-10 py-16">
                 {companies?.map((word,i) => (
                     <span key={i}>{word.name}</span>
                 ))}
