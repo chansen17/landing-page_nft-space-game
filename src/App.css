@@ -6,6 +6,15 @@
 
 
 @layer base {
+
+  .mxw {
+    @apply max-w-[1440px] mx-auto px-5;
+  }
+
+  .mxw-sm {
+    @apply max-w-6xl mx-auto px-5;
+  }
+
   body {
     @apply bg-[#111] text-slate-200;
   }
