@@ -7,6 +7,10 @@
 
 @layer base {
 
+  .wrapper {
+    @apply w-full h-fit py-12 md:py-24;
+  }
+
   .mxw {
     @apply max-w-[1440px] mx-auto px-5;
   }
